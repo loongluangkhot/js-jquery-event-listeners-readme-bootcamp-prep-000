@@ -14,7 +14,11 @@ function frameIt() {
 
 function pressIt() {
   $('input#typing').on('keydown', function(key) {
+<<<<<<< HEAD
     if (key.which === 71) {
+=======
+    if (key.which == 83) {
+>>>>>>> 813392f6884ef90947e8b79e3a16020692081593
       alert("Not the \"G\"!")
     }
   })
